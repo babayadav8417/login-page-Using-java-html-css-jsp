@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url("background.jpg");
+    background-size: 150%;
+    background-position: -400px 0px;
+}
+div.main{
+    width: 400px;
+    margin: 100px auto 0px auto;
+}
+h2{
+    text-align: center;
+    padding: 20px;
+    font-family: sans-serif;
+}
+div.register{   
+    background-color: rgba(81, 69, 69, 0.5);
+    width: 100%;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 1px solid rgba(209, 25, 25, 0.5);
+    box-shadow: 2px 2px 15px rgba(0,0 green,0 blue,0.3 alpha);
+    color: #fff;
+}
+form#register{
+    margin: 0px;
+}
+label{
+    font-family: sans-serif;
+    font-size: 15px;
+    font-style: italic;
+}
+input#name{
+    width: 300px;
+    padding: 1px;
+    border: 1px solid #ddd;
+}
+input#submit{
+    width: 150px;
+    padding: 7 px;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 600;
+    border-radius: 5px;
+    background-color: rgb(125, 190, 140);
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid rgb(205, 197, 191);
+}
+input#reset{
+    width: 150px;
+    padding: 8 px;
+    margin: 0px;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 600;
+    border-radius: 5px;
+    background-color: rgb(235, 193, 145);
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid rgb(205, 197, 191);
+}
